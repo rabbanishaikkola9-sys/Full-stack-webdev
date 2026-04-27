@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms-HTML</title>
 </head>
+
 <body>
-    <h1>About Forms-HTML</h1>
-    
+    <h1>Application form-HTML</h1>
+    <div>
+
+        <form action="post"></form>
+        <label for="username">Enter the username:</label>
+        <input type="text" name="username" id="username" placeholder="Enter the username" autofocus>
+    </div>
+    <div>
+
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="Female" name="gender" value="Female" required>
+        <label for="Female">Female</label>
+    </div>
+    <div>
+        <input type="checkbox" id="cbox" name="check_box" value="yes">
+        <label for="cbox">This is the checkbox that usually comes while downloading the S/W</label>
+    </div>
+    <div>
+        <label for="cmnts">Enter the comment here..</label> <br>
+        <textarea name="Comments" id="cmnts" rows="5" cols="50" >
+        Enter the comment here...
+        </textarea>
+
+    </div>
+    <div>
+        <h2>Select your favourite fruit:</h2>
+        <select name="Fruits" id="f">
+            <option value="apple">Apple</option>
+            <option value="Jackfruit">Jackfruit</option>
+            <option value="Banana">Banana</option>
+        </select>
+    </div>
 </body>
+
 </html>
