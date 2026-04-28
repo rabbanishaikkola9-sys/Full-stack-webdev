@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors-CSS</title>
+    <style>
+        /* Universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Element selector */
+        div{
+            background-color: rgb(45, 211, 16);
+            color: white;
+        }
+        /* Class selector */
+        .red{
+            background-color: red;
+            color: white;
+        }
+        /* ID selector */
+        #green{
+            background-color: green;
+            color: white;
+        }
+        /* parent  child selector */
+        div>p{
+            background-color: wheat;
+            color: black;
+        }
+        /* descendent selector */
+        div p{
+            background-color: yellow;
+            color: black;
+        }
+        /* pseudo selector */
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            background-color: rgb(240, 240, 240);
+        }
+        a:hover{
+            background-color: blue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        Hey I am div
+    </div>
+    <!-- <div></div>  same changes done by here--> 
+     <div class="red ">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam temporibus cumque quisquam!
+     </div>
+     <span id="green">Hey I am span</span>
+     <div>
+        <article>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod corrupti deleniti harum.</p>
+        </article>
+     </div>
+     <!-- Using anchor -->
+      <a href="https://www.google.com" target="_blank">Open google</a>
+      <a href="https://www.amazon.com" target="_blank">Open amazon</a>
+</body>
+</html>
